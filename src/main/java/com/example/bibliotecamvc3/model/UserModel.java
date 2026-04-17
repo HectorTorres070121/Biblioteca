@@ -1,4 +1,4 @@
-package com.example.bibliotecamvc3.Model;
+package com.example.bibliotecamvc3.model;
 
 public class UserModel{
     private final String UsuarioCorrecto="admin";

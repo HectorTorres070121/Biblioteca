@@ -1,4 +1,4 @@
-package com.example.bibliotecamvc3.Controller;
+package com.example.bibliotecamvc3.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import com.example.bibliotecamvc3.Model.UserModel;
+import com.example.bibliotecamvc3.model.UserModel;
 
 import java.io.IOException;
 
@@ -36,7 +36,7 @@ public class LoginController {
 
         if (valido) {
             lbl.setText("Bienvenido " + usuario);
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("segundaVista.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("biblioteca.fxml"));
             try {
                 Parent root = loader.load();
 
