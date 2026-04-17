@@ -1,3 +1,5 @@
+package com.example.bibliotecamvc3.Controller;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -5,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import com.example.bibliotecamvc3.Model.UserModel;
 
 import java.io.IOException;
 
