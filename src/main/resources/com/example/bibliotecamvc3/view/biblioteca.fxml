@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bibliotecamvc3.controller.Biblioteca"
-stylesheets="@../styles.css">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bibliotecamvc3.controller.Biblioteca">
    <children>
-      <Pane layoutX="2.0" layoutY="4.0" prefHeight="375.0" prefWidth="591.0" />
+      <Pane layoutX="2.0" layoutY="4.0" prefHeight="375.0" prefWidth="591.0">
+         <children>
+            <Button layoutX="270.0" layoutY="63.0" mnemonicParsing="false" text="Agregar libro" />
+            <Button layoutX="270.0" layoutY="146.0" mnemonicParsing="false" text="Buscar libro" />
+            <Button layoutX="270.0" layoutY="231.0" mnemonicParsing="false" text="Cerrar sesión" />
+         </children></Pane>
    </children>
 </AnchorPane>
