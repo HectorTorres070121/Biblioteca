@@ -10,6 +10,23 @@ public class Biblioteca {
             int id = Integer.parseInt(txtId.getText());
             String titulo = txtTitulo.getText();
             String autor = txtAutor.getText();
+            DatosBiblioteca nuevoLibro = new DatosBiblioteca(id, titulo, autor);
+
+            listaLibros.add(nuevoLibro);
+
+            System.out.println("Libro registrado: " + titulo);
+
+
+            limpiarCampos();
+
+
+            mostrarLibros();
+
+        } catch (NumberFormatException e) {
+            System.out.println("Error: El ID debe ser un número.");
+        }
+    }
+
 
     //logica para registrar
 
